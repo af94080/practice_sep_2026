@@ -3,6 +3,8 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 
+load_dotenv()
+
 # set api key 
 api_key = os.environ.get('DEEPSEEK_API_KEY')
 
@@ -24,7 +26,7 @@ response=client.chat.completions.create(
 	"role":"system",
 	"content":"you are a nutrition assistant. Answer the user's nutrition question directly and briefly."
 	},{
-	"role":"system",
+	"role":"user",
 	"content":prompt
 	}])
 
