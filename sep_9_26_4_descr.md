@@ -1,12 +1,12 @@
 flow:<br>
 question<br>
-router llm <br>
-    document agent<br>
-        company handbook<br>
-    web agent<br>
-        web search<br>
-second llm <br>
-final answer<br><br>
+<p>router llm </p><br>
+    <p>document agent</p><br>
+        <p><p>company handbook<br></p>
+    <p>web agent</p><br>
+        <p>web search</p><br>
+<p>second llm </p><br>
+<p>final answer</p><br><br>
 
-description:<br>
-second llm synthesizes results from agents
+<p>description:</p><br>
+<p>second llm synthesizes results from agents</p>
