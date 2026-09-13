@@ -1,4 +1,4 @@
-~/Documents/demos/sep_2026 python3 sep_9_26_4.py
+~/Documents/demos/sep_2026 python3 sep_9_26_4.py<br>
 What is your question: According to our company handbook, how much vacation do employees get, and how does that compare with the current industry average?
 
 PLANS:  ['document', 'web']
