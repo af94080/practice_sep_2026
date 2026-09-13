@@ -20,7 +20,7 @@ select * from ANALYSIS_SEP_2026.SOCIAL.SOCIAL_POSTS_RAW limit 3;
 3	Honestly, Found a quiet little neighborhood that wasn't in any guidebook.
 */
 
--- 2. move data from SOCIAL_POSTS -> SOCIAL_POSTS_SENTIMENT using python
+-- 2. move data from SOCIAL_POSTS_RAW -> SOCIAL_POSTS_SENTIMENT using python
 
 -- 3. verify final target table SOCIAL_POSTS_SENTIMENT
 
