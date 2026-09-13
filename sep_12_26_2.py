@@ -24,10 +24,9 @@ sentiment_model = pipeline(
     "sentiment-analysis",
     model="cardiffnlp/twitter-roberta-base-sentiment-latest"
 )
-# Get posts from Snowflake
 import pandas as pd
 
-# Get all posts from Snowflake
+# Get posts from Snowflake
 rows = session.sql("""
     SELECT POST_ID, POST_TEXT
     FROM ANALYSIS_SEP_2026.SOCIAL.SOCIAL_POSTS_RAW
